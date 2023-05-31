@@ -1,0 +1,12 @@
+//This is for absolute import
+{
+    "presets": ["@babel/preset-env"],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": ["./src"]
+            }
+        ]
+    ]
+}
